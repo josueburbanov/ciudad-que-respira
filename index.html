@@ -1,144 +1,136 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title>W3.CSS Template</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
-.w3-sidebar {
-  z-index: 3;
-  width: 250px;
-  top: 43px;
-  bottom: 0;
-  height: inherit;
-}
-</style>
-</head>
-<body>
+<!DOCTYPE HTML>
 
-<!-- Navbar -->
-<div class="w3-top">
-  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
-    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
-    <a href="#" class="w3-bar-item w3-button w3-theme-l1">Logo</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Values</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">News</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Clients</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Partners</a>
-  </div>
-</div>
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+     License, v. 2.0. If a copy of the MPL was not distributed with this file,
+     You can obtain one at http://mozilla.org/MPL/2.0/.  -->
 
-<!-- Sidebar -->
-<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
-    <i class="fa fa-remove"></i>
-  </a>
-  <h4 class="w3-bar-item"><b>Menu</b></h4>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#">Link</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#">Link</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#">Link</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#">Link</a>
-</nav>
+<html lang=en>
+ <head>
+  <meta charset="utf-8" />
+  
+  <title>$APPNAME - Privacy Policy</title>
+   <!--Make sure to put you app name in the page title-->
+  
+  <link href="privacy-policy-updates.xml" type="application/rss+xml" title="$APPNAME Privacy Policy Updates" rel="alternate">
+   <!--It's a good idea to provide an RSS feed of privacy policy updates so that users don't have to keep checking back to see if anything has changed. Especially if your feed doesn't change regularly, it doesn't take much work to update it by hand whenever you make a change. Of course, whenever you make a large change, it's still a good idea to push a notice out to your users, even if you do have an RSS feed. Make sure to remove the RSS section below if you don't use an update feed.-->
+   
+  <link rel="stylesheet" href="css/style.css" media="all" type="text/css">
+  
+  </head>
+  
+ <body>
 
-<!-- Overlay effect when opening sidebar on small screens -->
-<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+   <header>
+    <h1>$APPNAME Privacy Policy</h1>
+    </header>
 
-<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
-<div class="w3-main" style="margin-left:250px">
+   <nav>
+    <h1 id="contents">Contents</h1>
 
-  <div class="w3-row w3-padding-64">
-    <div class="w3-twothird w3-container">
-      <h1 class="w3-text-teal">Heading</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum
-        dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
-    <div class="w3-third w3-container">
-      <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
-      <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
-    </div>
-  </div>
+     <ul>
+     <li><a href="#personal-info">Personal info</a>
+      <ul><li><a href="#misc_children">Children</a></li></ul>
+      </li>
+     
+     <li><a href="#collection">Collection</a>
+      <ul><li><a href="#collection_tracking">Tracking technologies</a></li></ul>
+      </li>
+      
+     <li><a href="#use">Use</a>
+      </li>
+    
+     <li><a href="#disclosure">Disclosure</a>
+      <ul>
+       <li><a href="#disclosure_partners">Partners</a></li>
+       <li><a href="#disclosure_legal">Legal process</a></li>
+       </ul></li>
+      
+     <li><a href="#storage">Storage</a>
+      <ul>
+       <li><a href="#storage_location">Where your info lives</a></li>
+       <li><a href="#storage_duration">How long we keep your info</a></li>
+       </ul></li>
+      
+    <li><a href="#misc">About</a>
+     <ul><li><a href="#choice">Your choices</a></li>
+      <li><a href="#change">Changes to this policy</a></li>
+      <li><a href="#contact">Contact us</a></li>
+      </ul></li>
+      
+     </ul>
+    </nav>
+   
+   <article>
 
-  <div class="w3-row">
-    <div class="w3-twothird w3-container">
-      <h1 class="w3-text-teal">Heading</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum
-        dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
-    <div class="w3-third w3-container">
-      <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
-      <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
-    </div>
-  </div>
+    <nav class="to-top"><a href="#contents">back to top</a></nav>
 
-  <div class="w3-row w3-padding-64">
-    <div class="w3-twothird w3-container">
-      <h1 class="w3-text-teal">Heading</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum
-        dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
-    <div class="w3-third w3-container">
-      <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
-      <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
-    </div>
-  </div>
+    <section>
 
-  <!-- Pagination -->
-  <div class="w3-center w3-padding-32">
-    <div class="w3-bar">
-      <a class="w3-button w3-black" href="#">1</a>
-      <a class="w3-button w3-hover-black" href="#">2</a>
-      <a class="w3-button w3-hover-black" href="#">3</a>
-      <a class="w3-button w3-hover-black" href="#">4</a>
-      <a class="w3-button w3-hover-black" href="#">5</a>
-      <a class="w3-button w3-hover-black" href="#">»</a>
-    </div>
-  </div>
+     <h1 id="personal-info">Personal info</h1>
 
-  <footer id="myFooter">
-    <div class="w3-container w3-theme-l2 w3-padding-32">
-      <h4>Footer</h4>
-    </div>
+      <h2 id="misc_children">Children</h2>
 
-    <div class="w3-container w3-theme-l1">
-      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-    </div>
-  </footer>
+     </section>
+   
+    <nav class="to-top"><a href="#contents">back to top</a></nav>
+   
+    <section>
+    
+     <h1 id="collection">How we collect info</h1>
 
-<!-- END MAIN -->
-</div>
+      <h2 id="collection_tracking">Tracking technologies</h2>
 
-<script>
-// Get the Sidebar
-var mySidebar = document.getElementById("mySidebar");
+     </section>
 
-// Get the DIV with overlay effect
-var overlayBg = document.getElementById("myOverlay");
+    <nav class="to-top"><a href="#contents">back to top</a></nav>
 
-// Toggle between showing and hiding the sidebar, and add overlay effect
-function w3_open() {
-  if (mySidebar.style.display === 'block') {
-    mySidebar.style.display = 'none';
-    overlayBg.style.display = "none";
-  } else {
-    mySidebar.style.display = 'block';
-    overlayBg.style.display = "block";
-  }
-}
+    <section>
 
-// Close the sidebar with the close button
-function w3_close() {
-  mySidebar.style.display = "none";
-  overlayBg.style.display = "none";
-}
-</script>
+     <h1 id="use">How we use your info</h1>
 
-</body>
-</html>
+     </section>
+
+    <nav class="to-top"><a href="#contents">back to top</a></nav>
+
+    <section>
+
+     <h1 id="disclosure">When we share your info</h1>
+
+      <h2 id="disclosure_partners">Our Partners</h2>
+
+      <h2 id="disclosure_legal">Legal process</h2>
+
+     </section>
+
+    <nav class="to-top"><a href="#contents">back to top</a></nav>
+
+    <section>
+
+     <h1 id="storage">How we store your info</h1>
+
+      <h2 id="storage_location">Where your info lives</h2>
+
+      <h2 id="storage_duration">How long we keep your info</h2>
+
+     </section>
+
+    <nav class="to-top"><a href="#contents">back to top</a></nav>
+
+    <section>
+
+     <h1 id="misc">About</h1>
+
+      <h2 id="misc_choice">Your choices</h2>
+
+      <h2 id="misc_changes">Changes</h2>
+
+      <h2 id="misc_contact">Contact us</h2>
+
+     </section>
+
+    </article>
+
+  </body>
+
+ </html>
 
